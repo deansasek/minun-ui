@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <feature supported="carousel">
+    
+    <view name="system">
+        <image name="staticBackground">
+            <path>./_assets/bg.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <zIndex>0</zIndex>
+        </image>
+        
+        <image name="logo">
+            <path>./_assets/minui_system_half_circle.png</path>
+            <origin>0 0.5</origin>
+            <pos>0 0.5</pos>
+            <maxSize>0.08 0.40</maxSize>
+            <zIndex>20</zIndex>
+        </image>
+
+        <carousel name="systemcarousel">
+            <origin>0 0.5</origin>
+            <type>vertical_wheel</type> 
+            <color>FFFFFF00</color>
+            <logoSize>0.70 0.12</logoSize> 
+            <maxLogoCount>7</maxLogoCount>
+            <pos>0.07 0.5</pos> 
+            <size>0.9 0.70</size> <selectorColor>FFFFFF00</selectorColor>
+            <selectorHeight>0.13</selectorHeight>
+            <logoAlignment>left</logoAlignment>
+            <scrollSound>./audio/move.wav</scrollSound>
+            <zIndex>30</zIndex>
+        </carousel>
+
+        <text name="logoText">
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.065</fontSize>
+            <forceUppercase>true</forceUppercase>
+            <lineSpacing>0.7</lineSpacing>
+            <alignment>left</alignment> 
+            <origin>0 0.5</origin>
+            <pos>0.05 0.5</pos>
+            <color>FFFFFF</color>
+            <selectedColor>000000</selectedColor> 
+            <zIndex>40</zIndex>
+        </text>
+
+        <text name="systemInfo">
+            <text></text>
+            <pos>2 2</pos>
+            <size>0 0</size>
+            <fontSize>0</fontSize>
+            <visible>false</visible>
+        </text>
+
+        <image name="pill_nav_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.02 0.84</pos>
+            <size>0.28 0.08</size> 
+            <zIndex>95</zIndex>
+        </image>
+        <image name="pill_nav_fg" extra="true">
+            <path>./_assets/white_circle.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.07 0.84</pos>
+            <size>0.045 0.06</size>
+            <zIndex>96</zIndex>
+        </image>
+        <text name="txt_dpad" extra="true">
+            <text>+</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.07 0.845</pos> <size>0.08 0.06</size>
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.055</fontSize> <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="txt_nav" extra="true">
+            <text>NAVIGATE</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.19 0.84</pos> 
+            <size>0.18 0.06</size> 
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <image name="pill_power_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.02 0.94</pos> 
+            <size>0.28 0.08</size>
+            <zIndex>90</zIndex>
+        </image>
+        <image name="pill_power_fg" extra="true">
+            <path>./_assets/white_pill_small.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.10 0.94</pos>
+            <size>0.10 0.06</size> 
+            <zIndex>91</zIndex>
+        </image>
+        <text name="txt_power" extra="true">
+            <text>POWER</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.10 0.938</pos> 
+            <size>0.10 0.06</size> 
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.028</fontSize> 
+            <zIndex>92</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="txt_sleep" extra="true">
+            <text>SLEEP</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.22 0.94</pos> 
+            <size>0.12 0.06</size> 
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>92</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <image name="pill_open_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.78 0.94</pos> 
+            <size>0.20 0.08</size> 
+            <zIndex>90</zIndex>
+        </image>
+        <image name="pill_open_fg" extra="true">
+            <path>./_assets/white_circle.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.83 0.94</pos> 
+            <size>0.045 0.06</size> 
+            <zIndex>91</zIndex>
+        </image>
+        <text name="txt_a" extra="true">
+            <text>A</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.83 0.938</pos>
+            <size>0.08 0.06</size>
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>92</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="txt_open" extra="true">
+            <text>OPEN</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.91 0.94</pos> 
+            <size>0.10 0.06</size>
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>92</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+    </view>
+    </feature>
+
+    <view name="system,basic,detailed,video">   
+        <helpsystem name="help">
+            <textColor>00000000</textColor> 
+            <iconColor>00000000</iconColor> 
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.01</fontSize>
+            <pos>10 10</pos> 
+            <visible>false</visible>
+        </helpsystem>
+    </view>  
+
+    <view name="screen">
+        <text name="clock">
+             <color>FFFFFF</color>
+             <fontPath>./_assets/font.otf</fontPath>
+             <fontSize>0.040</fontSize> 
+             <alignment>right</alignment>
+             <origin>1 0</origin>
+             <pos>0.89 0.015</pos>
+             <size>0.40 0.058</size>
+             <zIndex>100</zIndex>
+        </text>
+        <batteryIndicator name="batteryIndicator">
+            <color>FFFFFF</color>
+            <origin>0 0</origin>
+            <pos>0.91 0.022</pos>
+            <zIndex>100</zIndex>
+        </batteryIndicator>
+    </view>
+
+    <view name="basic,detailed,video">
+        <image name="background" extra="true">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <path>./_assets/gamelist.png</path>
+            <zIndex>0</zIndex>
+            <color>ffffff</color>
+        </image>
+
+        <image name="md_image">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <origin>0 0</origin>
+            <zIndex>1</zIndex>
+            <color>666666</color> 
+        </image>
+
+        <text name="logoText">
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.040</fontSize>
+            <color>FFFFFF</color>
+            <origin>0 0</origin>
+            <pos>0.02 0.022</pos>
+            <size>0.42 0.058</size>
+            <alignment>left</alignment>
+            <lineSpacing>1.0</lineSpacing>
+            <forceUppercase>true</forceUppercase>
+            <zIndex>100</zIndex>
+        </text>
+
+        <textlist name="gamelist">
+             <selectorColor>FFFFFF</selectorColor>
+             <selectedColor>000000</selectedColor>
+             <primaryColor>FFFFFF</primaryColor>
+             <secondaryColor>FFFFFF</secondaryColor>
+             <fontPath>./_assets/font.otf</fontPath>
+             <fontSize>0.045</fontSize> 
+             <pos>0 0.12</pos> 
+             <size>1 0.70</size>
+             <alignment>center</alignment>
+             <horizontalMargin>0.05</horizontalMargin>
+             <origin>0 0</origin>
+             <lineSpacing>1.6</lineSpacing> 
+             <selectorHeight>0.10</selectorHeight> 
+             <zIndex>40</zIndex>
+        </textlist>
+
+        <image name="pill_fav_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.02 0.74</pos>
+            <size>0.28 0.08</size> 
+            <zIndex>95</zIndex>
+        </image>
+        <image name="pill_fav_fg" extra="true">
+            <path>./_assets/white_circle.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.07 0.74</pos>
+            <size>0.045 0.06</size>
+            <zIndex>96</zIndex>
+        </image>
+        <text name="txt_y" extra="true">
+            <text>Y</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.07 0.738</pos>
+            <size>0.08 0.06</size>
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="txt_fav" extra="true">
+            <text>FAVORITE</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.19 0.74</pos> 
+            <size>0.18 0.06</size> 
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <image name="game_pill_nav_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.02 0.84</pos>
+            <size>0.28 0.08</size> 
+            <zIndex>95</zIndex>
+        </image>
+        <image name="game_pill_nav_fg" extra="true">
+            <path>./_assets/white_circle.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.07 0.84</pos>
+            <size>0.045 0.06</size>
+            <zIndex>96</zIndex>
+        </image>
+        <text name="game_txt_dpad" extra="true">
+            <text>+</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.07 0.845</pos> 
+            <size>0.08 0.06</size>
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.055</fontSize> 
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="game_txt_nav" extra="true">
+            <text>NAVIGATE</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.19 0.84</pos> 
+            <size>0.18 0.06</size> 
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <image name="game_pill_power_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.02 0.94</pos>
+            <size>0.28 0.08</size>
+            <zIndex>90</zIndex>
+        </image>
+        <image name="game_pill_power_fg" extra="true">
+            <path>./_assets/white_pill_small.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.10 0.94</pos>
+            <size>0.10 0.06</size> 
+            <zIndex>91</zIndex>
+        </image>
+        <text name="game_txt_power" extra="true">
+            <text>POWER</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.10 0.938</pos> 
+            <size>0.10 0.06</size> 
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.028</fontSize> 
+            <zIndex>92</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="game_txt_sleep" extra="true">
+            <text>SLEEP</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.22 0.94</pos> 
+            <size>0.12 0.06</size> 
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>92</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <image name="pill_back_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.56 0.94</pos>
+            <size>0.20 0.08</size> 
+            <zIndex>95</zIndex>
+        </image>
+        <image name="pill_back_fg" extra="true">
+            <path>./_assets/white_circle.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.61 0.94</pos>
+            <size>0.045 0.06</size>
+            <zIndex>96</zIndex>
+        </image>
+        <text name="txt_b" extra="true">
+            <text>B</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.61 0.938</pos>
+            <size>0.08 0.06</size>
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="txt_back" extra="true">
+            <text>BACK</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.69 0.94</pos> 
+            <size>0.10 0.06</size> 
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <image name="pill_play_bg" extra="true">
+            <path>./_assets/dark_pill.png</path>
+            <origin>0 0.5</origin>
+            <pos>0.78 0.94</pos>
+            <size>0.20 0.08</size>
+            <zIndex>95</zIndex>
+        </image>
+        <image name="pill_play_fg" extra="true">
+            <path>./_assets/white_circle.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.83 0.94</pos>
+            <size>0.045 0.06</size> 
+            <zIndex>96</zIndex>
+        </image>
+        <text name="txt_a_play" extra="true">
+            <text>A</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.83 0.938</pos>
+            <size>0.08 0.06</size>
+            <alignment>center</alignment>
+            <color>666666</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+        <text name="txt_play" extra="true">
+            <text>PLAY</text>
+            <origin>0.5 0.5</origin>
+            <pos>0.91 0.94</pos> 
+            <size>0.10 0.06</size>
+            <alignment>center</alignment>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.038</fontSize>
+            <zIndex>97</zIndex>
+            <forceUppercase>1</forceUppercase>
+        </text>
+    </view>
+
+    <view name="menu">
+        <menuBackground name="menubg">
+            <path>./_assets/menu.png</path>
+            <color>1a1a1a</color> 
+        </menuBackground>
+        <menuText name="menutitle">
+            <color>FFFFFF</color>
+            <backgroundColor>1a1a1a</backgroundColor>
+            <fontPath>./_assets/font.otf</fontPath>
+        </menuText>
+        <menuText name="menutext, menufooter, menutextsmall">
+            <fontPath>./_assets/font.otf</fontPath>
+            <fontSize>0.035</fontSize> 
+            <color>FFFFFF</color>
+            <selectedColor>000000</selectedColor>
+            <selectorColor>FFFFFF</selectorColor>
+        </menuText>
+        <image name="pill_power_bg, pill_power_fg, game_pill_power_bg, game_pill_power_fg, pill_open_bg, pill_open_fg, pill_play_bg, pill_play_fg, pill_fav_bg, pill_fav_fg, pill_back_bg, pill_back_fg, pill_nav_bg, pill_nav_fg, game_pill_nav_bg, game_pill_nav_fg">
+            <visible>false</visible>
+        </image>
+        <text name="txt_power, txt_sleep, game_txt_power, game_txt_sleep, txt_a, txt_open, txt_a_play, txt_play, txt_y, txt_fav, txt_b, txt_back, clock, txt_dpad, txt_nav, game_txt_dpad, game_txt_nav">
+            <visible>false</visible>
+        </text>
+        <batteryIndicator name="batteryIndicator">
+            <visible>false</visible>
+        </batteryIndicator>
+    </view>
+</theme>
