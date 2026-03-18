@@ -3,6 +3,7 @@ minun-ui is a minimal EmulationStation theme for R36S devices running ArkOS or d
 
 ## Features
 - Simple monochromatic theme.
+- Predefined EmulationStation UI settings are synced on install to provide a simple interface.
 - Enhanced button prompts on the system & game selection menus.
 - Convienence scripts for installation, uninstallation, and updating:
   - Install script that installs the theme, custom boot logo, and custom game loading image.
