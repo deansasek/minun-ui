@@ -2,7 +2,7 @@
 Minimal EmulationStation theme for R36S devices running ArkOS or darkOSRE.
 
 ## Installation
-1. Download the repository & drag the ```minun-ui``` folder into ```/EASYROMS/tools/```.
+1. Download the [latest release](https://github.com/deansasek/minun-ui/releases/) & drag the ```minun-ui``` folder into ```/EASYROMS/tools/```.
 2. Insert the microSD card back into the R36S & power it on.
 3. Press Start, navigate to Options, Tools, and open the ```minun-ui``` folder.
 4. Open ```install.sh``` - when the installer is complete, EmulationStation will restart and the installation is complete.
