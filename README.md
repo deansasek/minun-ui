@@ -1,6 +1,6 @@
 # minun-ui
 
-EmulationStation theme for R36S devices running ArkOS or dArkOSRE inspired by [MinUI](https://github.com/shauninman/MinUI).
+minun-ui is a EmulationStation theme for R36S devices running ArkOS or dArkOSRE, inspired by [MinUI](https://github.com/shauninman/MinUI).
 
 ## Features
 - **Grayscale UI:** Simple black, grey, and white design.
