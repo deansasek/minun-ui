@@ -1,5 +1,5 @@
 # minun-ui
-Minimal EmulationStation theme for R36S devices running ArkOS or darkOSRE.
+Minimal EmulationStation theme for R36S devices running ArkOS or darkOSRE, inspired by [MinUI](https://github.com/shauninman/MinUI).
 
 ## Installation
 1. Download the [latest release](https://github.com/deansasek/minun-ui/releases/) & drag the ```minun-ui``` folder into ```/EASYROMS/tools/```.
