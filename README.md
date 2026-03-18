@@ -1,6 +1,14 @@
 # minun-ui
 minun-ui is a minimal EmulationStation theme for R36S devices running ArkOS or darkOSRE, inspired by [MinUI](https://github.com/shauninman/MinUI).
 
+## Features
+- Simple monochromatic theme.
+- Enhanced button prompts on the system & game selection menus.
+- Convienence scripts for installation, uninstallation, and updating:
+  - Install script that installs the theme, custom boot logo, and custom game loading image.
+  - Uninstall script that uninstalls the theme, and restores existing boot logo & game loading image.
+  - Update script that will update existing boot logo, game loading image, theme, and assets if new files are added to the minun-ui tools folder.
+
 ## Installation
 1. Download the [latest release](https://github.com/deansasek/minun-ui/releases/) & drag the ```minun-ui``` folder into ```/EASYROMS/tools/```.
 2. Insert the microSD card back into the R36S & power it on.
