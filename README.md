@@ -11,9 +11,9 @@ Looking to install? Follow the [installation guide](https://github.com/deansasek
 </p>
 
 ## Features
-- **Grayscale UI:** Simple black, grey, and white design.
-- **Auto-Config:** Sets transitions, view style, and battery icons on install.
-- **System Branding:** Replaces the stock boot logo and game-loading screens.
+- **Simple UI:** Simple monochromatic design.
+- **Auto-Config:** Sets EmulationStation transitions, view style, and battery icons on install.
+- **Boot Logo & Loading Image:** Installation replaces the stock boot logo and game-loading screens.
 - **Maintenance Scripts:**
   - `install.sh`: Deploys the theme and system assets.
   - `uninstall.sh`: Reverts all changes and restores original files.
