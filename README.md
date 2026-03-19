@@ -11,7 +11,7 @@ Looking to install? Follow the [installation guide](https://github.com/deansasek
 </p>
 
 ## Features
-- **Simple UI:** Simple monochromatic design.
+- **Simple UI:** Lightweight monochromatic design, created for those who enjoy simplicitly _(me)_ and are not looking for flashy themes but functionality.
 - **Auto-Config:** Sets EmulationStation transitions, view style, and battery icons on install.
 - **Boot Logo & Loading Screen:** Installation replaces the stock boot logo and game-loading screen.
 - **Maintenance Scripts:**
