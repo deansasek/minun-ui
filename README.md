@@ -17,7 +17,7 @@ Looking to install? Follow the [installation guide](https://github.com/deansasek
 - **Maintenance Scripts:**
   - `install.sh`: Installs the theme, boot logo, loading screen, and sets the EmulationStation configuration, plus backs up stock boot logo & loading screen.
   - `uninstall.sh`: Deletes the theme & restores original boot logo & loading screen.
-  - `update.sh`: Remounts theme from `tools/minun-ui/` if new files are mounted.
+  - `update.sh`: Remounts theme from the `/tools/minun-ui/` folder if new files are mounted.
 
 ## Installation
 1. Download the latest [release](https://github.com/deansasek/minun-ui/releases) & drag the `minun-ui` folder into `/EASYROMS/tools/`.
