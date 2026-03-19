@@ -13,11 +13,11 @@ Looking to install? Follow the [installation guide](https://github.com/deansasek
 ## Features
 - **Simple UI:** Simple monochromatic design.
 - **Auto-Config:** Sets EmulationStation transitions, view style, and battery icons on install.
-- **Boot Logo & Loading Image:** Installation replaces the stock boot logo and game-loading screens.
+- **Boot Logo & Loading Screen:** Installation replaces the stock boot logo and game-loading screen.
 - **Maintenance Scripts:**
-  - `install.sh`: Deploys the theme and system assets.
-  - `uninstall.sh`: Reverts all changes and restores original files.
-  - `update.sh`: Refreshes assets or `theme.xml` without a full reinstall.
+  - `install.sh`: Installs the theme, boot logo, loading screen, and sets the EmulationStation configuration, plus backs up stock boot logo & loading screen.
+  - `uninstall.sh`: Deletes the theme & restores original boot logo & loading screen.
+  - `update.sh`: Remounts theme from `tools/minun-ui/` if new files are mounted.
 
 ## Installation
 1. Download the latest [release](https://github.com/deansasek/minun-ui/releases) & drag the `minun-ui` folder into `/EASYROMS/tools/`.
