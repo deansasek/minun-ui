@@ -4,6 +4,12 @@ minun-ui is a EmulationStation theme for R36S devices running ArkOS or dArkOSRE,
 
 Looking to install? Follow the [installation guide](https://github.com/deansasek/minun-ui/tree/main?tab=readme-ov-file#installation).
 
+<p align="left">
+  <img src="https://github.com/deansasek/minun-ui/raw/refs/heads/main/minun-ui/minun-ui/_assets/logo.bmp" width="330" />
+  <img src="https://github.com/deansasek/minun-ui/blob/main/minun-ui/minun-ui/_assets/minun-ui-systems.png?raw=true" width="330" />
+  <img src="https://github.com/deansasek/minun-ui/blob/main/minun-ui/minun-ui/_assets/minun-ui-gamelist.png?raw=true" width="330" />
+</p>
+
 ## Features
 - **Grayscale UI:** Simple black, grey, and white design.
 - **Auto-Config:** Sets transitions, view style, and battery icons on install.
