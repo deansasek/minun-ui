@@ -45,6 +45,9 @@ Overwrite the `minun-ui` folder in `/tools/` with a new version from [releases](
 - Replace the boot logo and loading images if new ones are included.
 - Update `theme.xml` and assets in `/_assets/`.
 
+## Issues
+Open an [issue](https://github.com/deansasek/minun-ui/issues) on the repository.
+
 ## Project Structure
 ```text
 minun-ui/
