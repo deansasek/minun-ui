@@ -24,6 +24,8 @@ Looking to install? Follow the [installation guide](https://github.com/deansasek
 2. On your R36S, go to **Options** > **Tools** and open the `minun-ui` folder.
 3. Run `install.sh`.
 
+Don't want to run the script? Drop the `minun-ui/minun-ui/` theme folder in `/EASYROMS/themes/` - you will have to add the boot logo & loading screen yourself.
+
 **The installer will:**
 - Backup and replace the `/BOOT/` logo.
 - Backup and replace the loading image in `/EASYROMS/`.
